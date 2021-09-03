@@ -1,0 +1,108 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header  {
+    background-color: black;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    margin-right: 0px;
+    color: white;
+    font-size: x-large;
+}
+
+.item2 {
+    color: white;
+    font-size: smaller;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+#center-stage {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black; 
+    overflow: visible;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.dropdownshow{
+    align-content: center;
+    max-width: 1000px;
+}
+
+#dropdownMenubutton {
+    background-color: lightgrey;
+
+}
+
+
+.showings {
+    border-bottom: black;
+    border-bottom-width: 10px;
+
+
+}
+
+.showinfo {
+    font-size: small;
+  
+}
+
+#raisin {
+    float: left;
+    margin-right: 30px;
+    margin-left: 10px;
+
+}
+
+#readmore {
+    float: right;
+    font-size: 16px;
+    margin-left: 30px;
+    background-color: rgb(255, 189, 65);
+    color: white;
+    padding: 10px 14px;
+   
+}
+
+hr {
+    height: 3px;
+    background-color: darkgray;
+    width: auto;
+
+}
+
+.footer {
+    background-color: black;
+    padding: 50px 70px 50px 70px;
+    color: white;
+    font-size: small;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#Social {
+    color: white;
+}
